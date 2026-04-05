@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo giá | Soga Wedding</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .price-list { max-width: 900px; margin: 0 auto; }
+        .price-item { 
+            display: flex; justify-content: space-between; align-items: flex-end; 
+            border-bottom: 1px solid #ddd; padding: 40px 0; 
+        }
+        .price-title { font-size: 32px; font-weight: 400; margin-bottom: 10px; }
+        .price-desc { font-family: 'Montserrat'; font-size: 11px; letter-spacing: 2px; color: #888; }
+        .price-amount { font-size: 28px; color: var(--accent-gold); font-style: italic; }
+    </style>
+</head>
+<body>
+
+<header class="nav">
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" style="height: 40px; margin-right: 12px;">
+        <span>SOGA.</span>
+    </div>
+
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div class="nav-links" id="nav-list">
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Câu chuyện</a>
+        <a href="service.html">Báo giá</a>
+        <a href="gallery.html">Tác phẩm</a>
+        <a href="contact.html">Liên hệ</a>
+    </div>
+</header>
+
+<section class="section" style="padding-top: 20vh;">
+    <div class="section-header reveal">
+        <span>INVESTMENT</span>
+        <h2>Lựa chọn hoàn hảo cho bạn</h2>
+    </div>
+
+    <div class="price-list">
+        <div class="price-item reveal">
+            <div>
+                <h3 class="price-title">The Essential Collection</h3>
+                <p class="price-desc">01 CONCEPT STUDIO / MAKEUP CHUYÊN NGHIỆP / 50 ẢNH FINE-ART</p>
+            </div>
+            <div class="price-amount">5.000.000 ₫</div>
+        </div>
+
+        <div class="price-item reveal">
+            <div>
+                <h3 class="price-title">The Signature Collection</h3>
+                <p class="price-desc">02 CONCEPT STUDIO & NGOẠI CẢNH / STYLIST RIÊNG / 100 ẢNH FINE-ART</p>
+            </div>
+            <div class="price-amount">10.000.000 ₫</div>
+        </div>
+
+        <div class="price-item reveal">
+            <div>
+                <h3 class="price-title">The Masterpiece Experience</h3>
+                <p class="price-desc">CONCEPT ĐỘC QUYỀN / EKIP RIÊNG / ALBUM CAO CẤP NHẬP KHẨU</p>
+            </div>
+            <div class="price-amount">15.000.000 ₫</div>
+        </div>
+    </div>
+    
+    <div class="reveal" style="text-align: center; margin-top: 80px;">
+        <a href="https://zalo.me/0705050108" class="btn">Tư vấn cấu hình gói</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
